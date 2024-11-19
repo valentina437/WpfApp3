@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Тест" Height="400" Width="600">
+
+    <StackPanel>
+        <TextBlock Text="1 Вопрос: по какой паре задали это задание?"/>
+        <RadioButton GroupName="1" Content="Excel"/>
+        <RadioButton GroupName="1" Content="C#"/>
+        <RadioButton GroupName="1" Content="База данных"/>
+        <RadioButton GroupName="1" Content="HTML"/>
+
+        <TextBlock Text="2 Вопрос: В какой аудитории была эта пара? (19.11.2024)"/>
+        <RadioButton GroupName="2" Content="1408"/>
+        <RadioButton GroupName="2" Content="1410"/>
+        <RadioButton GroupName="2" Content="1229"/>
+        <RadioButton GroupName="2" Content="1524"/>
+
+        <TextBlock Text="3 Вопрос: Сколько баллов за это задание?"/>
+        <RadioButton GroupName="3" Content="1"/>
+        <RadioButton GroupName="3" Content="2"/>
+        <RadioButton GroupName="3" Content="3"/>
+        <RadioButton GroupName="3" Content="4"/>
+
+        <TextBlock Text="4 Вопрос: 3*2="/>
+        <RadioButton GroupName="4" Content="4"/>
+        <RadioButton GroupName="4" Content="6"/>
+        <RadioButton GroupName="4" Content="9"/>
+        <RadioButton GroupName="4" Content="3"/>
+
+        <Button Content="Отправить"  Height ="30" Width="80" Click="Button_Click"/>
+
+    </StackPanel>
+
+
+</Window>
